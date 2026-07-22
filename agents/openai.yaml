@@ -1,0 +1,7 @@
+interface:
+  display_name: "公司 Git 规范"
+  short_description: "按团队规范生成分支名和 commit 信息"
+  default_prompt: "Use $git-commit to create a compliant branch name or commit message under the company Git convention."
+
+policy:
+  allow_implicit_invocation: true
